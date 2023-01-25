@@ -392,3 +392,5 @@ day: 80 red: 0 green: 0 blue: 0
 day: 172 red: 0 green: 0 blue: 0
 day: 266 red: 0 green: 0 blue: 0
 day: 355 red: 0 green: 0 blue: 0
+
+show colors!

@@ -168,4 +168,7 @@ int main(void) {
 
 	printf("\ndraw solinoxes\n");
 	draw_solinoxes();
+
+	printf("\n");
+	show();
 }
