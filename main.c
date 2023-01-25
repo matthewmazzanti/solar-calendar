@@ -13,7 +13,7 @@ typedef struct {
 } color;
 
 // Day + Color struct, allows pairing a day to a color. Current use is for
-// specifying the day_colores we care about
+// specifying the solinoxes we care about
 typedef struct {
 	uint16_t day;
 	color color;
@@ -34,7 +34,7 @@ typedef struct {
 	color_delta color;
 } day_color_delta;
 
-// The key days we want to display on the calendar, the day_colores. Each defines
+// The key days we want to display on the calendar, the solinoxes. Each defines
 // a day and a color to display on that day. Between any two days, we want to
 // have a gradient of color from the defined colors
 day_color solinoxes[] = {
